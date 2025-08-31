@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #151515;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 15px 30px;
+  background-color: #222;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar input {
+  display: flex;
+  height: 20px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.navbar img {
+  height: 30px;
+  margin-left: 50px;
+}
+
+.banner {
+  height: 60vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515), url(./assets/john-wick-banner.jpg);
+  margin-bottom: 50px;
+}
+
+.banner img {
+  margin: 250px 0px 0px 50px;
+}
+
+.banner h5 {
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px 0px 0px 50px;
+}
+
+.banner button {
+  font-size: 15px;
+  margin: 20px 0px 0px 60px;
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  width: 100px;
+  background-color: #D10F1E;
+  color: white;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.banner button:hover {
+  transform: scale(1.1);
+}
+
+.newRelease {
+  margin: 0px 0px 20px 20px;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie-card {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  border-bottom: 2px solid #333;
+}
+
+
+.movie-card h3 {
+  margin: 10px;
+  font-size: 1rem;
+}
+
+.movie-card p {
+  margin: 0 10px 10px;
+  color: #9c9c9c;
 }
