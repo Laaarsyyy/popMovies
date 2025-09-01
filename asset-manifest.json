@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/popMovies/static/css/main.f855e6bc.css",
-    "main.js": "/popMovies/static/js/main.1612a038.js",
+    "main.css": "/popMovies/static/css/main.9fbc7f41.css",
+    "main.js": "/popMovies/static/js/main.1305da0e.js",
     "static/js/453.827f2506.chunk.js": "/popMovies/static/js/453.827f2506.chunk.js",
-    "static/media/logo.svg": "/popMovies/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/john-wick-banner.jpg": "/popMovies/static/media/john-wick-banner.b869c88f92688e369368.jpg",
+    "static/media/JWT.png": "/popMovies/static/media/JWT.d8ab6a025a726ea301cd.png",
+    "static/media/popMovieLogo.png": "/popMovies/static/media/popMovieLogo.8e97921856d1eda048f2.png",
     "index.html": "/popMovies/index.html",
-    "main.f855e6bc.css.map": "/popMovies/static/css/main.f855e6bc.css.map",
-    "main.1612a038.js.map": "/popMovies/static/js/main.1612a038.js.map",
+    "main.9fbc7f41.css.map": "/popMovies/static/css/main.9fbc7f41.css.map",
+    "main.1305da0e.js.map": "/popMovies/static/js/main.1305da0e.js.map",
     "453.827f2506.chunk.js.map": "/popMovies/static/js/453.827f2506.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.1612a038.js"
+    "static/css/main.9fbc7f41.css",
+    "static/js/main.1305da0e.js"
   ]
 }
